@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #FFFFFF;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+p {
+  font-size: 1.2rem;
+  font-weight: 100;
+}
+
+.body-text {
+  font-weight: 400;
+}
+
+span {
+  font-weight: 700;
+}
+
+.buttons {
+  background-color: #FF8B00;
+  color: #FFFFFF;
+}
+
+.buttons:hover {
+  background-color: #000000;
+  color: #FFFFFF;
+}
+
+@media (max-width: 768px) {
+  p {
+    font-size: 1rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+  h4 {
+    font-size: 1.2rem;
+  }
+}
+.navbar {
+  background-color: #003152;
+  color: #FFFFFF;
+}
+
+.hero {
+  height: 500px;
+  width: 100%;
+  background-color: #003152;
+  color: #FFFFFF;
+}
+.hero .hero-section {
+  width: 70%;
+  margin: 4em auto;
+}
+.hero h1 {
+  font-size: 4rem;
+  margin: 0;
+}
+.hero p {
+  font-size: 1.8rem;
+  margin: 0;
+}
+.hero .subtext {
+  font-size: 1.2rem;
+}
+@media (max-width: 425px) {
+  .hero h1 {
+    font-size: 2.5rem;
+    margin: 0;
+  }
+  .hero p {
+    font-size: 1.8rem;
+    margin: 0;
+  }
+  .hero .subtext {
+    font-size: 1rem;
+  }
+}
+
+.card {
+  background-color: #003152;
+  color: #FFFFFF;
+}
+.card .card-title {
+  color: #ffa806;
+}
+.card .list-group-item {
+  background-color: #003152;
+  color: #FFFFFF;
+  font-size: 1.2rem;
+}
+
+.picture {
+  width: 100%;
+  border-radius: 4em;
+  max-height: 500px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.contact {
+  background-color: #D8E8F4;
+  color: #000000;
+}
+.contact label {
+  font-size: 1.2rem;
+}
+.contact input, .contact textarea {
+  font-size: 1rem;
+}
+
+.footer {
+  background-color: #003152;
+}
+.footer a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
