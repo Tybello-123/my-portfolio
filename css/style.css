@@ -109,7 +109,7 @@ span {
 .picture {
   width: 100%;
   border-radius: 4em;
-  max-height: 500px;
+  max-height: 450px;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -131,4 +131,10 @@ span {
 .footer a {
   text-decoration: none;
   color: #FFFFFF;
+}
+
+.thanks {
+  width: 60%;
+  margin: 0 auto;
+  border: 2px solid black;
 }
